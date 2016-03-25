@@ -1,0 +1,16 @@
+<ion-view title="Canvas">
+    <ion-content overflow-scroll="true" padding="true" scroll="false" class="has-header">
+      <label class="item item-input">
+  <span class="input-label" style="font-size:15px;">To: </span>
+  <input type="text" ng-model="mainData.friendName"> </input>
+  </label>
+<span class="input-text" style="font-size:15px;">From: {{mainData.fromName}}</span>
+
+<canvas id="canvas"></canvas>
+
+          <div class="button-bar">
+  <button class="button button-small button-positive" ng-click="send()">Send</button>
+  <button class="button button-small button-assertive" ng-click="erase()">Erase</button>
+        </div>
+    </ion-content>
+</ion-view>
