@@ -16,11 +16,9 @@ To run on your browser:
 
 $ ionic serve
 
-Or run on an emulator:
+Or run on an emulator (substitute ios for android to build for Android instead):
 
 $ ionic platform add ios
-
-$ ionic platform add android
 
 then 
 
